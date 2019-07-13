@@ -1,0 +1,142 @@
+
+/*nav*/
+.nav {
+    margin: 40px 0;
+    
+}
+.navbar {
+    
+    background-color: #1062AC;
+    
+}
+#textlogo {
+  color:   #ffc201;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#textlogo2 {
+    font-family: 'Lato', sans-serif;
+   color:   black;
+    font-size: 30px;
+    
+}
+@media (min-width: 990px)
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 1em;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 20px;
+}
+
+
+/*links*/
+a{
+    color: inherit;
+    
+}
+a:hover, a:focus { text-decoration: none;
+color:inherit;
+
+}
+ .nav-item:hover .nav-link {
+    color: #ffc201;
+    
+}
+/*end of nav */
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 250px; 
+   left: 25px; 
+   width: 100%; 
+}
+
+ h2 span  { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+h2 span.spacer {
+   padding:0 5px;
+}
+
+.text {
+   color: white;  
+    font:Helvetica;
+     background: rgba(0, 0, 0, 0.7);
+    
+}
+.carousel-caption{
+   text-align: left; 
+    
+}
+
+.card  {
+    border: 1.5px solid  #ffc201;
+    
+    
+    
+}
+
+
+.title {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400px;
+    
+}
+
+.titlediv {
+    border-bottom: 5px solid #ffc201;
+    font-size: 50px;
+  
+    font-weight: 800px;
+    
+    margin-bottom: 4px;
+    font-family: 'Federant', cursive;
+
+    
+}
+
+
+
+.btn-outline-primary {
+    color: #ffc201;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffc201;
+}
+
+
+.by:hover{
+    color: #ffc201;
+    
+    
+}
+
+
+
+
+
+
+
+/*footer*/
+footer {
+    margin-top: 5px;
+    background-color:#1062AC;
+        color:#ffc201;
+}

@@ -1,0 +1,293 @@
+body {
+    background-color: rgb(248, 248, 248);    
+}
+.container {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+ background-color: rgb(227, 227, 227); 
+    margin-bottom: 5px
+}
+.nav {
+    margin: 40px 0;
+    
+}
+.navbar {
+   
+    background-color: #1062AC;
+    
+}
+#textlogo {
+  color:   #ffc201;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#textlogo2 {
+    font-family: 'Lato', sans-serif;
+   color:   black;
+    font-size: 30px;
+    
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+@media (min-width: 990px)
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 1em;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 20px;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #ffc201;
+    
+}
+.form-inline label  {
+    display: block;
+    margin: 0px 0px 5px 0px;
+    color: #ffc201;
+   
+    font-size: 1em;
+    
+}
+.form-inline input {
+    margin: 0 10px;
+    
+}
+.form-inline {
+    
+    margin: 5px 0;
+    
+}
+.block:not(#converting){
+    
+       border-top: 10px solid #ffc201;
+    border-bottom: 10px solid #1062AC;
+     border-collapse: collapse;
+
+    
+
+    
+}
+
+select {
+margin:0 5px;
+    
+}
+
+    .form-inline .form-control {
+        width:150px;
+        
+        
+}
+.btn-outline-primary {
+    color: #d3a206;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffc201;
+}
+.btn:not(btnav) {
+    margin: 15px 0 0 0;
+   width: 70px ;
+    height: 30px; 
+    text-align: center;
+    padding: 0;
+}
+.blue {
+    color: #1062AC;
+    
+    
+    
+}
+.yellow {
+    color: #ffc201;
+    
+    
+}
+
+.data tr:nth-child(odd){
+    background-color: #5485b1;
+    
+}
+
+.data tr:nth-child(even){
+    background-color: #065ead;
+    
+}
+.nav-item .nav-link .btn {
+    
+    
+    
+}
+
+.converterform-label{font-size: 2.5em; ;}
+/*
+.tooltip {
+position: relative;
+display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+*/
+.tooltip8 .tooltiptext {
+    display: none;
+    /*
+    visibility:hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    */
+}
+/*
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+*/
+
+.title:hover {
+    color: #ffc201;
+    
+}
+
+.social-email {
+    background-image: url(../pic/email.jpg);
+    background-repeat: repeat-x;
+    min-height: 400px;
+    padding: 40px 30px;}
+.social-email h2 {
+    font-size: 17px;
+    text-align: center;
+    color: #FFF;
+    font-family: changa-semiBold;
+    margin-bottom: 30px;
+}
+
+.social-email h3 {
+    font-size: 15px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 35px;
+}
+.social-email form {
+    margin-bottom: 60px;
+}
+.social-email input {
+    height: 65px;
+    border-radius: 0;
+    outline: 0;
+    box-shadow: none;
+}
+.social-email .btn-email {
+    height: 65px;
+    color: #433d45;
+    font-family: changa-semiBold;
+    background-color: #febd15;
+    border-radius: 0;
+    outline: 0;
+    box-shadow: none;
+    width: 100%;
+    
+}
+.social-email .twitter-m {
+    background-color: #55acee;
+}
+.social-email .media {
+    padding: 24px 10px 7px 10px;
+}
+.social-email .media i.fa-twitter {
+    color: #55acee;
+}
+.social-email .media i {
+    margin-right: 13px;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+}
+.social-email .media h5 {
+    color: #FFF;
+}
+.social-email .media p {
+    color: #FFF;
+    font-family: changa-semiBold;
+}
+.social-email .google-m {
+    background-color: #dc4e41;
+}
+.social-email .media i.fa-google-plus {
+    color: #dc4e41;
+}
+.social-email .facebook-m {
+    background-color: #3b5998;
+}
+.social-email .media i.fa-facebook-f {
+    color: #3b5998;
+}
+.social-email .instagram-m {
+    background-color: #df64ac;
+}
+.social-email .media i.fa-instagram {
+    color: #df64ac;
+}
+
+
+
+
+ .read {
+   margin: 0px 0 0 0;
+    width: 100px ;
+    height: 30px; 
+    text-align: center;
+    padding: 0;
+    
+    
+}
+a{
+    color: inherit;
+    
+}
+a:hover, a:focus { text-decoration: none;
+color:inherit;
+
+}
+footer {
+    margin-top: 5px;
+    background-color:#1062AC;
+        color:#ffc201;
+}
+
+/*graph*/
+
+#myDiv {
+  margin: 0 auto;
+  border: 1px solid black;
+  min-height: 300px;
+}
